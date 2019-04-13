@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E049FB2A-5FDB-4493-A42D-D3C4C01EAB8B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Lavanya_s_Project1.My.MyApplication</StartupObject>
+    <RootNamespace>Lavanya_s_Project1</RootNamespace>
+    <AssemblyName>Lavanya%27s Project1</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Lavanya%27s Project1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Lavanya%27s Project1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\Webalys-Kameleon.pics-Student-3.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=8.0.15.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="adminDashboard.Designer.vb">
+      <DependentUpon>adminDashboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="adminDashboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="attendence.Designer.vb">
+      <DependentUpon>attendence.vb</DependentUpon>
+    </Compile>
+    <Compile Include="attendence.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard.Designer.vb">
+      <DependentUpon>Dashboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="loginForm.Designer.vb">
+      <DependentUpon>loginForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="loginForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marks.Designer.vb">
+      <DependentUpon>Marks.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Marks.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="noRecordFound.Designer.vb">
+      <DependentUpon>noRecordFound.vb</DependentUpon>
+    </Compile>
+    <Compile Include="noRecordFound.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="personalInfo.Designer.vb">
+      <DependentUpon>personalInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="personalInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registerform.Designer.vb">
+      <DependentUpon>Registerform.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registerform.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="registerMessage.Designer.vb">
+      <DependentUpon>registerMessage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="registerMessage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="updateAttendance.Designer.vb">
+      <DependentUpon>updateAttendance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="updateAttendance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="updateMarks.Designer.vb">
+      <DependentUpon>updateMarks.vb</DependentUpon>
+    </Compile>
+    <Compile Include="updateMarks.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="adminDashboard.resx">
+      <DependentUpon>adminDashboard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="attendence.resx">
+      <DependentUpon>attendence.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard.resx">
+      <DependentUpon>Dashboard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="loginForm.resx">
+      <DependentUpon>loginForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Marks.resx">
+      <DependentUpon>Marks.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="noRecordFound.resx">
+      <DependentUpon>noRecordFound.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="personalInfo.resx">
+      <DependentUpon>personalInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registerform.resx">
+      <DependentUpon>Registerform.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="registerMessage.resx">
+      <DependentUpon>registerMessage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="updateAttendance.resx">
+      <DependentUpon>updateAttendance.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="updateMarks.resx">
+      <DependentUpon>updateMarks.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Webalys-Kameleon.pics-Student-3.ico" />
+    <None Include="Resources\Screenshot %2856%29.png" />
+    <None Include="Resources\15-512.png" />
+    <None Include="Resources\Back Button.png" />
+    <None Include="Resources\graphic_track_attendance.png" />
+    <None Include="Resources\login_icon.png" />
+    <None Include="Resources\images.jpg" />
+    <None Include="Resources\grades-clipart-test-result-9.png" />
+    <None Include="Resources\Sed-13-512.png" />
+    <None Include="Resources\3-512.png" />
+    <None Include="Resources\forbidden.png" />
+    <None Include="Resources\all-in-one-dashboard.jpg" />
+    <None Include="Resources\stu.png" />
+    <Content Include="stu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="System\Web\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

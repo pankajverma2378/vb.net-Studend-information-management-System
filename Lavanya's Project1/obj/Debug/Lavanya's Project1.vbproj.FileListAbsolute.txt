@@ -1,0 +1,26 @@
+C:\Users\hp\source\repos\Lavanya's Project1\Lavanya's Project1\bin\Debug\Lavanya's Project1.exe.config
+C:\Users\hp\source\repos\Lavanya's Project1\Lavanya's Project1\bin\Debug\Lavanya's Project1.exe
+C:\Users\hp\source\repos\Lavanya's Project1\Lavanya's Project1\bin\Debug\Lavanya's Project1.pdb
+C:\Users\hp\source\repos\Lavanya's Project1\Lavanya's Project1\bin\Debug\Lavanya's Project1.xml
+C:\Users\hp\source\repos\Lavanya's Project1\Lavanya's Project1\bin\Debug\MySql.Data.dll
+C:\Users\hp\source\repos\Lavanya's Project1\Lavanya's Project1\bin\Debug\Google.Protobuf.dll
+C:\Users\hp\source\repos\Lavanya's Project1\Lavanya's Project1\bin\Debug\MySql.Data.xml
+C:\Users\hp\source\repos\Lavanya's Project1\Lavanya's Project1\obj\Debug\Lavanya's Project1.vbprojAssemblyReference.cache
+C:\Users\hp\source\repos\Lavanya's Project1\Lavanya's Project1\obj\Debug\Lavanya_s_Project1.Resources.resources
+C:\Users\hp\source\repos\Lavanya's Project1\Lavanya's Project1\obj\Debug\Lavanya's Project1.vbproj.GenerateResource.cache
+C:\Users\hp\source\repos\Lavanya's Project1\Lavanya's Project1\obj\Debug\Lavanya's Project1.vbproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\Lavanya's Project1\Lavanya's Project1\obj\Debug\Lavanya's Project1.vbproj.CopyComplete
+C:\Users\hp\source\repos\Lavanya's Project1\Lavanya's Project1\obj\Debug\Lavanya's Project1.exe
+C:\Users\hp\source\repos\Lavanya's Project1\Lavanya's Project1\obj\Debug\Lavanya's Project1.xml
+C:\Users\hp\source\repos\Lavanya's Project1\Lavanya's Project1\obj\Debug\Lavanya's Project1.pdb
+C:\Users\hp\source\repos\Lavanya's Project1\Lavanya's Project1\obj\Debug\Lavanya_s_Project1.LoginForm.resources
+C:\Users\hp\source\repos\Lavanya's Project1\Lavanya's Project1\obj\Debug\Lavanya_s_Project1.Dashboard.resources
+C:\Users\hp\source\repos\Lavanya's Project1\Lavanya's Project1\obj\Debug\Lavanya_s_Project1.Registerform.resources
+C:\Users\hp\source\repos\Lavanya's Project1\Lavanya's Project1\obj\Debug\Lavanya_s_Project1.registerMessage.resources
+C:\Users\hp\source\repos\Lavanya's Project1\Lavanya's Project1\obj\Debug\Lavanya_s_Project1.noRecordFound.resources
+C:\Users\hp\source\repos\Lavanya's Project1\Lavanya's Project1\obj\Debug\Lavanya_s_Project1.Marks.resources
+C:\Users\hp\source\repos\Lavanya's Project1\Lavanya's Project1\obj\Debug\Lavanya_s_Project1.attendence.resources
+C:\Users\hp\source\repos\Lavanya's Project1\Lavanya's Project1\obj\Debug\Lavanya_s_Project1.adminDashboard.resources
+C:\Users\hp\source\repos\Lavanya's Project1\Lavanya's Project1\obj\Debug\Lavanya_s_Project1.personalInfo.resources
+C:\Users\hp\source\repos\Lavanya's Project1\Lavanya's Project1\obj\Debug\Lavanya_s_Project1.updateAttendance.resources
+C:\Users\hp\source\repos\Lavanya's Project1\Lavanya's Project1\obj\Debug\Lavanya_s_Project1.updateMarks.resources
